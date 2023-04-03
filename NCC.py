@@ -7,7 +7,7 @@ def select_object(frame):
     return (r, frame[int(r[1]):int(r[1]+r[3]), int(r[0]):int(r[0]+r[2])])
 
 # Carrega o vídeo
-cap = cv2.VideoCapture("IMG_2228.mp4")
+cap = cv2.VideoCapture("ex2.mp4")
 
 scale_factor = 0.5
 
